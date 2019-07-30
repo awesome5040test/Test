@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class FirstTest extends Settings {
 
     @ParameterizedTest
-    @ValueSource(ints = { 3, 5, 6, 7})
+    @ValueSource(ints = { 9, 5, 6, 7})
     public void checkQty(int expectedQty) {
         driver.get(baseUrl);
         assertTrue(new MainPage(driver).getItemsPanel().getQtyPanelLinks() == expectedQty);
