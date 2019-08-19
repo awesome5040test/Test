@@ -1,13 +1,16 @@
 package tests;
 
 import PageObject.pages.MainPage;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.parallel.Execution;
 import org.junit.jupiter.api.parallel.ExecutionMode;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@Execution(ExecutionMode.CONCURRENT)
+@Epic("Text Tests Epic")
+@Feature("Text Login Features")
 public class SecondTest extends Settings{
 
 
