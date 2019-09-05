@@ -5,7 +5,6 @@ import common.Session;
 import io.qameta.allure.Attachment;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.junit.jupiter.api.extension.ExtensionContext;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import webdriverImpl.ChromeDriverManager;
